@@ -1,0 +1,1 @@
+mv_conffile /etc/pkcs11/modules/gnome-keyring-module /etc/pkcs11/modules/gnome-keyring.module 3.6.0-0ubuntu1~
