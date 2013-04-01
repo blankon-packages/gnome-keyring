@@ -1,3 +1,15 @@
+gnome-keyring (3.8.0-1blankon1) suroboyo; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Mon, 01 Apr 2013 18:14:23 +0700
+
+gnome-keyring (3.8.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Thomas Bechtold <thomasbechtold@jpberlin.de>  Mon, 25 Mar 2013 23:11:12 +0100
+
 gnome-keyring (3.7.91-1blankon1) suroboyo; urgency=low
 
   * New upstream release

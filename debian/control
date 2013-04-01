@@ -39,7 +39,7 @@ Depends: ${misc:Depends},
          ${shlibs:Depends},
          gcr (>= 3.4),
          dbus-x11,
-         libcap2-bin [linux-any]
+         libcap2-bin
 Recommends: libpam-gnome-keyring
 Breaks: libgnome-keyring0 (<< 3.0),
         seahorse-plugins (<< 3.0)
