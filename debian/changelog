@@ -1,8 +1,23 @@
-gnome-keyring (3.10.1-0blankon1) suroboyo; urgency=low
+gnome-keyring (3.10.1-1blankon1) suroboyo; urgency=low
 
   * New Upstream Release 
 
- -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sat, 26 Oct 2013 20:14:28 +0700
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 28 Oct 2013 18:50:39 +0700
+
+gnome-keyring (3.10.1-1) experimental; urgency=low
+
+  [ Jeremy Bicha ]
+  * Update homepage
+
+  [ Laurent Bigonville ]
+  * debian/rules: Use DEB_LDFLAGS_MAINT_APPEND instead of LDFLAGS to not
+    override hardening flags
+  * debian/control.in: Use canonical URL for Vcs-Svn field
+
+  [ Sjoerd Simons ]
+  * New upstream release
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 27 Oct 2013 22:04:34 +0100
 
 gnome-keyring (3.8.2-2) unstable; urgency=low
 

@@ -26,8 +26,8 @@ Build-Depends: debhelper (>= 9),
                libglib2.0-doc
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-keyring/
-Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gnome-keyring/
-Homepage: http://live.gnome.org/GnomeKeyring
+Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-keyring/
+Homepage: https://wiki.gnome.org/GnomeKeyring
 
 Package: gnome-keyring
 Architecture: any
