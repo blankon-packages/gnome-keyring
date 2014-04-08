@@ -8,7 +8,7 @@ Section: gnome
 Priority: optional
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 XSBC-Original-Maintainer: Josselin Mouette <joss@debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Jordi Mallach <jordi@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-Depends: debhelper (>= 9),
                cdbs,
                autotools-dev,
@@ -22,7 +22,7 @@ Build-Depends: debhelper (>= 9),
                libgck-1-dev (>= 3.3.4),
                libgcr-3-dev (>= 3.5.3),
                libgcrypt11-dev (>= 1.2.2),
-               libglib2.0-dev (>= 2.32.0),
+               libglib2.0-dev (>= 2.38.0),
                libp11-kit-dev (>= 0.15.1),
                libpam0g-dev,
                libselinux1-dev,
@@ -42,7 +42,7 @@ Depends: ${misc:Depends},
          gcr (>= 3.4),
          dbus-x11,
          p11-kit (>= 0.16),
-         libcap2-bin [linux-any]
+         libcap2-bin 
 Recommends: libpam-gnome-keyring
 Breaks: libgnome-keyring0 (<< 3.0),
         seahorse-plugins (<< 3.0)
