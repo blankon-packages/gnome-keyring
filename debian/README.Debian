@@ -18,7 +18,7 @@ Otherwise, it is launched by the session manager, and you will be asked
 for a password for the "Default" keyring.
 
 If you change your authentication password (using passwd or 
-gnome-about-me for example), the password for the login keyrign should 
+gnome-about-me for example), the password for the login keyring should 
 be updated automatically.
 
  SSH and GPG agents

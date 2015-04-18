@@ -1,3 +1,27 @@
+gnome-keyring (3.16.0-1blankon1) tambora; urgency=low
+
+  * Merge Whit Sid 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 19 Apr 2015 05:00:09 +0700
+
+gnome-keyring (3.16.0-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Contains lots of memory leaks fixes.
+    - Fixes issues with logout from Plasma session.
+  * Fix a typo in README.debian (closes: #755367).
+  * Update Homepage field.
+  * Install manpages, now that is possible again.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 17 Apr 2015 14:43:05 +0300
+
+gnome-keyring (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 23 Sep 2014 20:20:23 +0200
+
 gnome-keyring (3.12.0-1blankon1) tambora; urgency=medium
 
   * Merge Whist Sid 

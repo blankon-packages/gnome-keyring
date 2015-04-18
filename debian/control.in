@@ -6,8 +6,8 @@ XSBC-Original-Maintainer: Josselin Mouette <joss@debian.org>
 Uploaders: @GNOME_TEAM@
 Build-Depends: debhelper (>= 9),
                cdbs,
-               autotools-dev,
                ca-certificates,
+               dh-autoreconf,
                docbook-xml,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.9),
@@ -21,10 +21,10 @@ Build-Depends: debhelper (>= 9),
                libp11-kit-dev (>= 0.15.1),
                libpam0g-dev,
                libselinux1-dev,
-               libtasn1-3-dev (>= 0.3.4),
-               libtasn1-3-bin,
+               libtasn1-6-dev,
+               libtasn1-bin,
                libglib2.0-doc
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-keyring/
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-keyring/
 Homepage: https://wiki.gnome.org/GnomeKeyring
@@ -37,7 +37,7 @@ Depends: ${misc:Depends},
          gcr (>= 3.4),
          dbus-x11,
          p11-kit (>= 0.16),
-         libcap2-bin
+         libcap2-bin [linux-any]
 Recommends: libpam-gnome-keyring
 Breaks: libgnome-keyring0 (<< 3.0),
         seahorse-plugins (<< 3.0)
