@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9),
                libglib2.0-dev (>= 2.38.0),
                libp11-kit-dev (>= 0.15.1),
                libpam0g-dev,
-               libselinux1-dev [linux-any],
+               libselinux1-dev,
                libtasn1-6-dev,
                libtasn1-bin,
                libglib2.0-doc
@@ -41,7 +41,7 @@ Depends: ${misc:Depends},
          gcr (>= 3.4),
          dbus-x11,
          p11-kit (>= 0.16),
-         libcap2-bin [linux-any],
+         libcap2-bin,
          pinentry-gnome3
 Recommends: libpam-gnome-keyring
 Description: GNOME keyring services (daemon and tools)
