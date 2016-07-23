@@ -5,7 +5,8 @@ usr/share/glib-2.0/schemas
 usr/share/GConf/gsettings
 usr/share/man/man1/gnome-keyring.1
 usr/share/man/man1/gnome-keyring-daemon.1
+usr/share/man/man1/gnome-keyring-3.1
 usr/share/p11-kit
-usr/lib/gnome-keyring/devel/*.so
+usr/lib/*/gnome-keyring/devel/*.so
 usr/lib/*/pkcs11/*.so
 etc/xdg/autostart

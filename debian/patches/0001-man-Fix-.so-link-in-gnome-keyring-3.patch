@@ -1,0 +1,23 @@
+From f9f5f7be4c6bba99ca4886b71b3e679f0bda9ced Mon Sep 17 00:00:00 2001
+From: Michael Biebl <biebl@debian.org>
+Date: Wed, 1 Jun 2016 14:15:46 +0200
+Subject: [PATCH] man: Fix .so link in gnome-keyring-3
+
+Manual files that use the .so links to include other pages should only
+point to a path relative to the top-level manual hierarchy.
+
+https://bugzilla.gnome.org/show_bug.cgi?id=767095
+---
+ docs/gnome-keyring-3.1 | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/docs/gnome-keyring-3.1 b/docs/gnome-keyring-3.1
+index 75cd257..dcb8ad9 100644
+--- a/docs/gnome-keyring-3.1
++++ b/docs/gnome-keyring-3.1
+@@ -1 +1 @@
+-.so gnome-keyring.1
++.so man1/gnome-keyring.1
+-- 
+2.8.1
+
