@@ -16,14 +16,14 @@ override_dh_auto_configure:
 override_dh_install:
 	dh_install --list-missing
 
-#TESTHOMEDIR = $(CURDIR)/debian/testhome
+TESTHOMEDIR = $(CURDIR)/debian/testhome
 
-#override_dh_auto_test:
-#ifeq (, $(filter nocheck, $(DEB_BUILD_OPTIONS)))
-#	mkdir -p $(TESTHOMEDIR)
-#	env -u LD_PRELOAD HOME=$(TESTHOMEDIR) dbus-run-session -- $(MAKE) check
-#endif
+override_dh_auto_test:
+ifeq (, $(filter nocheck, $(DEB_BUILD_OPTIONS)))
+	mkdir -p $(TESTHOMEDIR)
+	env -u LD_PRELOAD HOME=$(TESTHOMEDIR) dbus-run-session -- $(MAKE) check
+endif
 
-#override_dh_clean:
-#	rm -rf $(TESTHOMEDIR)
-#	dh_clean
+override_dh_clean:
+	rm -rf $(TESTHOMEDIR)
+	dh_clean
